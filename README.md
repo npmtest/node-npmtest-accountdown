@@ -1,4 +1,7 @@
-# test coverage for  [accountdown (v4.1.0)](https://github.com/substack/accountdown)  [![npm package](https://img.shields.io/npm/v/npmtest-accountdown.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-accountdown) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-accountdown.svg)](https://travis-ci.org/npmtest/node-npmtest-accountdown)
+# npmtest-accountdown
+
+#### basic test coverage for  [accountdown (v4.1.0)](https://github.com/substack/accountdown)  [![npm package](https://img.shields.io/npm/v/npmtest-accountdown.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-accountdown) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-accountdown.svg)](https://travis-ci.org/npmtest/node-npmtest-accountdown)
+
 #### persistent accounts backed to leveldb
 
 [![NPM](https://nodei.co/npm/accountdown.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/accountdown)
@@ -83,7 +86,8 @@
     "scripts": {
         "test": "tape test/*.js"
     },
-    "version": "4.1.0"
+    "version": "4.1.0",
+    "bin": {}
 }
 ```
 
